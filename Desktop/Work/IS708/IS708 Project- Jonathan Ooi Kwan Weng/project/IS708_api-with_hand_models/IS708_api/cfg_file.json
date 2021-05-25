@@ -1,0 +1,73 @@
+{
+  "statistical": {
+    "Interquartile range": {
+      "complexity": "constant",
+      "description": "Computes interquartile range of the signal.",
+      "function": "tsfel.interq_range",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes"
+    },
+    "Max": {
+      "complexity": "constant",
+      "description": "Computes the maximum value of the signal.",
+      "function": "tsfel.calc_max",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes"
+    },
+    "Mean": {
+      "complexity": "constant",
+      "description": "Computes the mean value of the signal.",
+      "function": "tsfel.calc_mean",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes",
+      "tag": "inertial"
+    },
+    "Median": {
+      "complexity": "constant",
+      "description": "Computes median of the signal.",
+      "function": "tsfel.calc_median",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes"
+    },
+    "Min": {
+      "complexity": "constant",
+      "description": "Computes the minimum value of the signal.",
+      "function": "tsfel.calc_min",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes"
+    },
+    "Root mean square": {
+      "complexity": "constant",
+      "description": "Computes root mean square of the signal.",
+      "function": "tsfel.rms",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes",
+      "tag": [
+        "emg",
+        "inertial"
+      ]
+    },
+    "Standard deviation": {
+      "complexity": "constant",
+      "description": "Computes standard deviation of the signal.",
+      "function": "tsfel.calc_std",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes"
+    },
+    "Variance": {
+      "complexity": "constant",
+      "description": "Computes variance of the signal.",
+      "function": "tsfel.calc_var",
+      "parameters": "",
+      "n_features": 1,
+      "use": "yes"
+    }
+  }
+}
